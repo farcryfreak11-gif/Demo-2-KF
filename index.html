@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>King’s Ferry | China to Bangladesh Import &amp; Logistics</title>
+<meta name="description" content="King’s Ferry is an import supplier and trading concern in Dhaka with over 30 years of China to Bangladesh import and export experience.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0f1640; --blue:#2e3192; --blue-hover:#232678; --mist:#eef1fb; --line:#d6dcf2; --white:#fff;
+  --font:"Poppins","Hind Siliguri","Noto Sans Bengali",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:6rem}
+body{font-family:var(--font);color:var(--ink);background:var(--white);line-height:1.7;font-size:1rem}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.25rem}
+section{padding:4.5rem 0}
+.alt{background:var(--mist)}
+h1,h2,h3{line-height:1.2;color:var(--ink)}
+h2{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:600;margin-bottom:1.5rem}
+p{max-width:42rem}
+
+/* header */
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.5rem 1.25rem}
+.bar img{height:64px;width:auto;display:block}
+nav{display:flex;gap:1.5rem;font-size:.95rem}
+nav a{text-decoration:none;font-weight:500}
+nav a:hover{color:var(--blue)}
+.lang{display:flex;border:1.5px solid var(--blue);border-radius:999px;overflow:hidden}
+.lang button{font:inherit;font-size:.85rem;font-weight:500;padding:.3rem .8rem;border:0;background:transparent;color:var(--blue);cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--blue);color:var(--white)}
+
+/* hero */
+.hero{padding:5rem 0 4rem}
+.hero h1{font-size:clamp(2.2rem,6vw,4.1rem);font-weight:600;letter-spacing:-.02em;max-width:18ch;color:var(--blue)}
+.hero p{margin-top:1.25rem;font-size:1.15rem}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.btn{display:inline-block;padding:.8rem 1.5rem;border-radius:.5rem;font-weight:500;text-decoration:none;border:2px solid var(--blue)}
+.btn.primary{background:var(--blue);color:var(--white)}
+.btn.primary:hover{background:var(--blue-hover)}
+.btn.ghost{color:var(--blue)}
+.btn.ghost:hover{background:var(--mist)}
+.route{display:flex;align-items:center;gap:1rem;margin-top:3.5rem;font-weight:600;color:var(--blue)}
+.line{flex:1;height:2px;position:relative;background:repeating-linear-gradient(90deg,var(--blue) 0 10px,transparent 10px 18px)}
+.dot{position:absolute;top:-6px;left:0;width:14px;height:14px;border-radius:50%;background:var(--blue);animation:sail 3.4s ease-out forwards}
+@keyframes sail{to{left:calc(100% - 14px)}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none;left:calc(100% - 14px)}html{scroll-behavior:auto}}
+
+/* services */
+.svc{list-style:none;padding:0;border-top:1px solid var(--line)}
+.svc li{display:grid;grid-template-columns:1fr 1.4fr;gap:1rem 2rem;padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.svc h3{font-size:1.15rem;font-weight:600;color:var(--blue)}
+.svc p{max-width:none}
+
+/* clients */
+.clients{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;margin-top:1.5rem}
+.clients li{aspect-ratio:1/1;background:var(--white);border:1px solid var(--line);border-radius:.75rem;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.clients img{width:100%;height:100%;object-fit:contain;display:block}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:2rem 3rem}
+.contact dt{font-weight:600;color:var(--blue);margin-top:1rem}
+.contact dt:first-child{margin-top:0}
+.contact dd{margin:0}
+.contact a{text-underline-offset:3px}
+
+footer{background:var(--blue);color:var(--white);padding:1.5rem 0;font-size:.9rem}
+
+@media (max-width:720px){
+  .clients{grid-template-columns:repeat(2,1fr)}
+  nav{display:none}
+  section{padding:3.2rem 0}
+  .hero{padding:3rem 0 2.5rem}
+  .svc li,.contact{grid-template-columns:1fr}
+  .bar img{height:48px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a href="#top" aria-label="King’s Ferry home"><img src="logo.png" alt="King’s Ferry logo" width="166" height="64"></a>
+    <nav aria-label="Main">
+      <a href="#about" data-en="About" data-bn="আমাদের সম্পর্কে">About</a>
+      <a href="#services" data-en="Services" data-bn="সেবা">Services</a>
+      <a href="#clients" data-en="Clients" data-bn="ক্লায়েন্ট">Clients</a>
+      <a href="#contact" data-en="Contact" data-bn="যোগাযোগ">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="bn" aria-pressed="false">বাংলা</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1 data-en="Importing from China to Bangladesh, made dependable." data-bn="চীন থেকে বাংলাদেশে আমদানি, নির্ভরতার সাথে।">Importing from China to Bangladesh, made dependable.</h1>
+      <p data-en="Import and logistics services backed by more than 30 years of experience." data-bn="৩০ বছরেরও বেশি অভিজ্ঞতায় আমদানি ও লজিস্টিকস সেবা।">Import and logistics services backed by more than 30 years of experience.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://wa.me/8801711263867" target="_blank" rel="noopener" data-en="Message us on WhatsApp" data-bn="হোয়াটসঅ্যাপে মেসেজ করুন">Message us on WhatsApp</a>
+        <a class="btn ghost" href="#services" data-en="Our services" data-bn="আমাদের সেবা">Our services</a>
+      </div>
+      <div class="route" aria-hidden="true">
+        <span data-en="China" data-bn="চীন">China</span>
+        <span class="line"><span class="dot"></span></span>
+        <span data-en="Bangladesh" data-bn="বাংলাদেশ">Bangladesh</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="alt">
+    <div class="wrap">
+      <h2 data-en="Over 30 years of China–Bangladesh trade" data-bn="চীন–বাংলাদেশ বাণিজ্যে ৩০ বছরের বেশি অভিজ্ঞতা">Over 30 years of China–Bangladesh trade</h2>
+      <p data-en="King’s Ferry is an import supplier and trading concern based in Paltan, Dhaka. We bring more than three decades of import and export experience between China and Bangladesh, and we have worked with well-known local brands." data-bn="কিংস ফেরি ঢাকার পল্টনভিত্তিক একটি আমদানি সরবরাহ ও ট্রেডিং প্রতিষ্ঠান। চীন ও বাংলাদেশের মধ্যে আমদানি-রপ্তানিতে আমাদের তিন দশকেরও বেশি অভিজ্ঞতা রয়েছে এবং আমরা দেশের নামকরা ব্র্যান্ডগুলোর সাথে কাজ করেছি।">King’s Ferry is an import supplier and trading concern based in Paltan, Dhaka. We bring more than three decades of import and export experience between China and Bangladesh, and we have worked with well-known local brands.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2 data-en="What we do" data-bn="আমরা যা করি">What we do</h2>
+      <ul class="svc">
+        <li>
+          <h3 data-en="Sourcing from China" data-bn="চীন থেকে পণ্য সংগ্রহ">Sourcing from China</h3>
+          <p data-en="We help you find and buy products from reliable Chinese suppliers." data-bn="নির্ভরযোগ্য চীনা সরবরাহকারীদের কাছ থেকে পণ্য খুঁজে পেতে ও কিনতে আমরা সহায়তা করি।">We help you find and buy products from reliable Chinese suppliers.</p>
+        </li>
+        <li>
+          <h3 data-en="Import and shipping" data-bn="আমদানি ও শিপিং">Import and shipping</h3>
+          <p data-en="We look after moving your cargo from China to Bangladesh." data-bn="চীন থেকে বাংলাদেশে আপনার পণ্য আনার দায়িত্ব আমরা নিই।">We look after moving your cargo from China to Bangladesh.</p>
+        </li>
+        <li>
+          <h3 data-en="Paperwork and customs clearance" data-bn="কাগজপত্র ও কাস্টমস ছাড়করণ">Paperwork and customs clearance</h3>
+          <p data-en="We support you with import documents and clearing goods through customs." data-bn="আমদানির কাগজপত্র তৈরি ও কাস্টমস থেকে পণ্য ছাড়ে আমরা সহায়তা করি।">We support you with import documents and clearing goods through customs.</p>
+        </li>
+        <li>
+          <h3 data-en="Delivery in Bangladesh" data-bn="বাংলাদেশে ডেলিভারি">Delivery in Bangladesh</h3>
+          <p data-en="We deliver your goods to your shop or warehouse." data-bn="আপনার দোকান বা গুদামে পণ্য পৌঁছে দিই।">We deliver your goods to your shop or warehouse.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="clients" class="alt">
+    <div class="wrap">
+      <h2 data-en="Brands that have worked with us" data-bn="যেসব ব্র্যান্ড আমাদের সাথে কাজ করেছে">Brands that have worked with us</h2>
+      <ul class="clients">
+        <li><img src="images/infinity.jpg" alt="Infinity Mega Mall logo" width="200" height="200" loading="lazy"></li>
+        <li><img src="images/easy-fashion.jpg" alt="Easy Fashion logo" width="200" height="200" loading="lazy"></li>
+        <li><img src="images/kacchi-dine.jpg" alt="Kacchi Dine logo" width="200" height="200" loading="lazy"></li>
+        <li><img src="images/le-dor.jpg" alt="Le d’Or Boulangerie Patisserie logo" width="200" height="200" loading="lazy"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2 data-en="Talk to us" data-bn="আমাদের সাথে কথা বলুন">Talk to us</h2>
+      <div class="contact">
+        <dl>
+          <dt>WhatsApp</dt>
+          <dd><a href="https://wa.me/8801711263867" target="_blank" rel="noopener">01711263867</a></dd>
+          <dt>WeChat</dt>
+          <dd>01402939049</dd>
+          <dt data-en="Email" data-bn="ইমেইল">Email</dt>
+          <dd><a href="mailto:kigsferry1999@gmail.com">kigsferry1999@gmail.com</a></dd>
+        </dl>
+        <dl>
+          <dt data-en="Office" data-bn="অফিস">Office</dt>
+          <dd data-en="76 Shantinagar, Shop No. 08, Square Trade Center (ground floor), Paltan, Dhaka-1217" data-bn="৭৬ শান্তিনগর, শপ নং ০৮, স্কয়ার ট্রেড সেন্টার (নিচতলা), পল্টন, ঢাকা-১২১৭">76 Shantinagar, Shop No. 08, Square Trade Center (ground floor), Paltan, Dhaka-1217</dd>
+          <dd style="margin-top:.6rem"><a href="https://www.google.com/maps/search/?api=1&query=Square+Trade+Center+Paltan+Dhaka" target="_blank" rel="noopener" data-en="Open in Google Maps" data-bn="গুগল ম্যাপে দেখুন">Open in Google Maps</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 King’s Ferry. <span data-en="A concern of Import Supplier and Trading." data-bn="একটি আমদানি সরবরাহ ও ট্রেডিং প্রতিষ্ঠান।">A concern of Import Supplier and Trading.</span></div>
+</footer>
+
+<script>
+(function(){
+  var buttons=document.querySelectorAll('[data-lang]');
+  function apply(lang){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      var t=el.getAttribute('data-'+lang);
+      if(t) el.textContent=t;
+    });
+    buttons.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===lang?'true':'false')});
+    try{localStorage.setItem('kf-lang',lang)}catch(e){}
+  }
+  buttons.forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.lang)})});
+  var saved=null;
+  try{saved=localStorage.getItem('kf-lang')}catch(e){}
+  if(saved==='bn') apply('bn');
+})();
+</script>
+</body>
+</html>
